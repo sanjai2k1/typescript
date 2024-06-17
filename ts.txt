@@ -1,0 +1,19 @@
+tsc filename.ts -w => for continuous watch
+tsc --init =>for tsconfig file
+rootdir ->for start
+outDir-> js file =>both in tsconfig file
+target ->for  older js support
+"include":["src"] => to ignore ts compilation on other folders
+noemitonerror => to stop compiling js file
+tsc --config -w => change config
+tsc -w =>default config
+number,string,boolean,any,union(|),RegExp,array,tuple,enum =>datatype
+array is a object in js
+using type keyword user-defined datatype can also be used
+name?:datatype => optional datatype
+functionName=(name:datatype):returntype=>{}
+function can also be passed as datatype
+[index: datatype]:datatype => signature
+[key: datatype]:datatype
+generics : <T> (arg:T);T=>arg
+Partial(name?)
